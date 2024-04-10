@@ -1,0 +1,6 @@
+ tensorflow 
+ keras 
+ gunicorn 
+ nltk
+ flask
+ cuda>=12.4

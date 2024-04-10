@@ -1,0 +1,42 @@
+{
+        "intents": [
+            {
+                "tag": "greeting",
+                "patterns": ["Hi", "Hello", "Hey"],
+                "responses": ["Hello! How can I assist you?"],
+                "context": [""]
+            },
+            {
+                "tag": "goodbye",
+                "patterns": ["Bye", "See you later"],
+                "responses": ["Goodbye! Have a great day."],
+                "context": [""]
+            },
+            {
+                "tag": "thanks",
+                "patterns": ["Thanks", "Thank you"],
+                "responses": ["You're welcome!", "No problem."],
+                "context": [""]
+            },
+            {   "tag": "options",
+                "patterns": ["who is this","who are you"],
+                "responses": ["Hey there! I'm Bandhu, the chatbot from the Emergicon department.How can I assist you today?" ],
+                "context": [""]
+            },
+           {
+                "tag": "Department_info",
+                "patterns": ["who is the hod of department"],
+                "responses": ["Dr. Hemant Turkar is the HOD of the department "],
+                "context": [""]
+            },
+            {
+                "tag": "noanswer",
+                "patterns": [],
+                "responses": ["I'm sorry, I didn't understand that."],
+                "context": [""]
+            }
+             
+
+        ]
+    }
+     
